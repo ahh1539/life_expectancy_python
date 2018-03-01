@@ -2,7 +2,7 @@ from rit_lib import *
 from utils import *
 
 """
-This is a new struct type meant to hold the greatest life expectancy for a country in a given year
+This is a new struct type meant to hold the greatest Life expectancy for a country in a given year
 """
 CountryValue = struct_type("CountryValue", (str, "country"), (float, "value"))
 
